@@ -15,7 +15,7 @@ https://api.opencapital.sh/mcp
 - **Free tier:** 100 queries/day, no credit card. Paid plans remove the cap.
 - **Data:** Fundamentals, segments, and earnings derived from US SEC filings (10-K, 10-Q, 8-K), read live
 
-> The data is free, the workflow is paid. Every metric, segment, quarter, and filing reference is free to query. [OpenCapital](https://opencapital.sh) is a small, independent project — not affiliated with the SEC.
+> The data is free, the workflow is paid. Every metric, segment, quarter, and filing reference is free to query. [OpenCapital](https://opencapital.sh) is an independent project — not affiliated with the SEC.
 
 ---
 

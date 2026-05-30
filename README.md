@@ -2,7 +2,7 @@
 
 **Every US public company, sourced from SEC filings — now available to your AI assistant.**
 
-OpenCapital is a hosted [Model Context Protocol](https://modelcontextprotocol.io) (MCP) server that gives Claude, ChatGPT, Cursor, Codex, and any other MCP-capable client **read-only** access to fundamentals, segment breakdowns, peer comparisons, and earnings data for thousands of US-listed equities (common shares and ADRs) — all derived directly from SEC filings.
+OpenCapital is a hosted [Model Context Protocol](https://modelcontextprotocol.io) (MCP) server that gives Claude, ChatGPT, Cursor, Codex, and any other MCP-capable client **read-only** access to what every US public company actually reports — fundamentals, segment breakdowns, peer comparisons, and earnings for thousands of US-listed equities (common shares and ADRs), all derived directly from SEC filings.
 
 You don't run anything. The server is hosted on OpenCapital's infrastructure. You add one URL to your client, sign in once, and start asking.
 
@@ -13,7 +13,7 @@ https://api.opencapital.sh/mcp
 - **Transport:** Streamable HTTP (remote MCP server)
 - **Auth:** OAuth 2.0 — sign in with Google, grant read-only access
 - **Free tier:** 100 queries/day, no credit card. Paid plans remove the cap.
-- **Data:** US SEC filings (10-K, 10-Q, 8-K) + market pricing, read live
+- **Data:** Fundamentals, segments, and earnings derived from US SEC filings (10-K, 10-Q, 8-K), read live
 
 > The data is free, the workflow is paid. Every metric, segment, quarter, and filing reference is free to query. [OpenCapital](https://opencapital.sh) is a small, independent project — not affiliated with the SEC.
 
@@ -126,7 +126,7 @@ More in [`examples/prompts.md`](examples/prompts.md).
 
 ## Read-only by design
 
-The OpenCapital MCP server only exposes read-only stock research data — fundamentals, price performance, segments, and earnings dates derived from public SEC filings. Your assistant **cannot place trades or modify any account state.** The watchlist tools are the only write surface, and they only edit your own OpenCapital watchlist.
+The OpenCapital MCP server only exposes read-only stock research data — fundamentals, segments, and earnings derived from public SEC filings. Your assistant **cannot place trades or modify any account state.** The watchlist tools are the only write surface, and they only edit your own OpenCapital watchlist.
 
 ## Privacy & terms
 

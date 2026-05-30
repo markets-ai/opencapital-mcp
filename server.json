@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "sh.opencapital/mcp",
+  "description": "Read-only stock research for AI assistants: fundamentals, segments, peer comparisons, and earnings for thousands of US-listed equities, derived from SEC filings.",
+  "version": "1.0.0",
+  "websiteUrl": "https://opencapital.sh",
+  "repository": {
+    "url": "https://github.com/markets-ai/opencapital-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.opencapital.sh/mcp"
+    }
+  ]
+}

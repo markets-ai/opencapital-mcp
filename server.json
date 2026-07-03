@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "sh.opencapital/mcp",
   "description": "Give your AI deep fundamentals on US public companies — metrics, segments, peers. Free.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "websiteUrl": "https://opencapital.sh",
   "repository": {
     "url": "https://github.com/markets-ai/opencapital-mcp",

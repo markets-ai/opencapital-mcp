@@ -27,6 +27,12 @@ Once OpenCapital is connected, ask in plain language — your assistant selects 
 - "Before Nvidia reports, summarize what their suppliers, hyperscaler customers, and competitors said in their last filings."
 - "Who competes with Datadog, and how do their filings describe each other?"
 
+## Filing narrative search
+
+- "What did Meta's last 10-K say about regulatory risk in the EU?"
+- "Find every mention of 'backlog' in Datadog's recent filings."
+- "Summarize the risk factors Boeing added in its most recent 10-K."
+
 ## Single-company deep dives
 
 - "Show me Tesla's free cash flow, every quarter, for the last 5 years."

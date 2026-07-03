@@ -93,7 +93,7 @@ Full guide: [opencapital.sh/connect-ai/other](https://opencapital.sh/connect-ai/
 
 ## What you can ask
 
-The server ships with 13 read-only tools. You rarely call them by name — just ask in natural language and your client picks the right one.
+The server ships with 14 read-only tools. You rarely call them by name — just ask in natural language and your client picks the right one.
 
 | Tool | What it does |
 |------|--------------|
@@ -107,6 +107,7 @@ The server ships with 13 read-only tools. You rarely call them by name — just 
 | `segment_time_series` | Segment disaggregation (product, business, geography) for a line item, with history per segment. |
 | `business_overview` | What a company does, from its latest 10-K Item 1: segments, value chain, partnerships, named competitors. |
 | `business_competitors` | Ranked peer list — competitors named in filings, reverse mentions, and embedding-similar businesses. |
+| `filing_text_search` | Semantic + keyword search over the narrative prose of SEC filings (MD&A, risk factors, footnotes) — ranked passages with EDGAR links and cross-referenced metrics. |
 | `portfolio_holdings` | Your linked brokerage holdings, aggregated by ticker with weights and P&L. *(requires sign-in + linked account)* |
 | `get_watchlist` | Your watchlist with company metadata and nearest earnings event. *(requires sign-in)* |
 | `update_watchlist` | Add or remove tickers from your watchlist. *(requires sign-in)* |
